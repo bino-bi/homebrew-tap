@@ -7,22 +7,22 @@ class BinoCli < Formula
   desc "CLI tool for building pixel-perfect PDF reports from YAML manifests and SQL queries"
   homepage "https://cli.bino.bi"
   license "AGPL-3.0-or-later"
-  version "0.106.0"
+  version "0.107.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bino-bi/bino-cli-releases/releases/download/v0.106.0/bino-cli_Darwin_arm64.tar.gz"
-      sha256 "000dd81d62098d52387f7f4b2053ec80c5a2b40d7eef2a79eeb80a3a42082bd5"
+      url "https://github.com/bino-bi/bino-cli-releases/releases/download/v0.107.0/bino-cli_Darwin_arm64.tar.gz"
+      sha256 "93c89feec660c45a9bb7506a20aefd6a58849b4b5324fc3f2ab8bb26bc53a137"
     else
-      url "https://github.com/bino-bi/bino-cli-releases/releases/download/v0.106.0/bino-cli_Darwin_x86_64.tar.gz"
-      sha256 "55ea909a73220e7ab16bb6dbe85e59fffba60ca078671f78b8ac125de612f01e"
+      url "https://github.com/bino-bi/bino-cli-releases/releases/download/v0.107.0/bino-cli_Darwin_x86_64.tar.gz"
+      sha256 "b125278f35bc354104e7c16b7b532a1b0084b22ef1748b801ea041bfc82060fa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/bino-bi/bino-cli-releases/releases/download/v0.106.0/bino-cli_Linux_x86_64.tar.gz"
-      sha256 "a1b0eee143a57b4f4485fa398ddd4150df7640a71a811a08892f2951020bf1e2"
+      url "https://github.com/bino-bi/bino-cli-releases/releases/download/v0.107.0/bino-cli_Linux_x86_64.tar.gz"
+      sha256 "56ff6b258ddd389736d5b0679364dd87c1fd4d4fe64122d535a7a93ed782eee7"
     end
   end
 
